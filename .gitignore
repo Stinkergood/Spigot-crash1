@@ -1,0 +1,273 @@
+[00:15:22] [Spigot Watchdog Thread/ERROR]: The server has stopped responding!
+[00:15:22] [Spigot Watchdog Thread/ERROR]: Please report this to http://www.spigotmc.org/
+[00:15:22] [Spigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[00:15:22] [Spigot Watchdog Thread/ERROR]: Spigot version: git-Spigot-5f38d38-18fbb24 (MC: 1.8.8)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:22] [Spigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
+[00:15:22] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:22] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		org.primesoft.asyncworldedit.taskdispatcher.TaskDispatcher.run(TaskDispatcher.java:211)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:22] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:22] [Spigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #3
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: true | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #2
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: true | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Chunk I/O Executor Thread-1
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 60 | Suspended: false | Native: false | State: WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: File IO Thread
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 59 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.FileIOThread.c(FileIOThread.java:52)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.FileIOThread.run(FileIOThread.java:28)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: ProtocolLib-StructureCompiler 0
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 57 | Suspended: false | Native: false | State: WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-8-thread-1
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 56 | Suspended: false | Native: false | State: WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer-0
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 32 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: true | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: MStore ExamineThread
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 30 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		com.massivecraft.massivecore.store.ExamineThread.run(ExamineThread.java:55)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: true | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Watchdog Thread
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpThreads0(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:76)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Server console handler
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: true | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.ReadConsoleInputW(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.readConsoleInputHelper(Kernel32.java:761)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.readConsoleKeyInput(Kernel32.java:794)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.WindowsTerminal.readConsoleInput(WindowsTerminal.java:215)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.WindowsTerminal.access$000(WindowsTerminal.java:55)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.WindowsTerminal$1.read(WindowsTerminal.java:157)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:79)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-5
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.BufferedOutputStream.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.cs.StreamEncoder.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.writeBytes(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.write(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.cs.StreamEncoder.implFlush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		sun.nio.cs.StreamEncoder.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.io.OutputStreamWriter.flush(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.flush(ConsoleReader.java:976)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_8_R3.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:33)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.primesoft.asyncworldedit.taskdispatcher.TaskDispatcher.run(TaskDispatcher.java:211)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Server Infinisleeper
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_8_R3.DedicatedServer$1.run(DedicatedServer.java:54)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: NonBlockingInputStreamThread
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 15 | Suspended: false | Native: false | State: WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 13 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Attach Listener
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Finalizer
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: WAITING
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+[00:15:23] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[00:15:23] [Spigot Watchdog Thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[00:15:23] [Thread-4/INFO]: Stopping server
